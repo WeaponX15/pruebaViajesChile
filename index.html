@@ -74,26 +74,30 @@
     </section>
 
     <!--QUIÉNES SOMOS/PARRÁFOS-->
-    <section id="idQsomos">
+    <section id="idQsomos" class="d-none d-sm-block">
         <div class="container">
             <h2 class="text-center mt-4 text-white">¿QUIÉNES SOMOS?</h2>
             <hr class="text-secondary">
             <div class="row">
                 <div class="col-4 text-white">
-                    <i class="fa-solid fa-plane icon bg-info w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Vuelos directos"></i>
+                    <i class="fa-solid fa-plane icon bg-info w-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Vuelos directos"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo libero veritatis adipisci ipsa
                         eveniet soluta possimus eaque maxime? Assumenda, quisquam consectetur neque ea consequatur odit
                         sit accusamus totam numquam voluptatibus?</p>
                 </div>
+    
                 <div class="col-4 text-white">
-
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo libero veritatis adipisci ipsa
                         eveniet soluta possimus eaque maxime? Assumenda, quisquam consectetur neque ea consequatur odit
                         sit accusamus totam numquam voluptatibus?</p>
-                    <i class="fa-solid fa-mountain icon bg-info w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Montañismo"></i>
+                    <i class="fa-solid fa-mountain icon bg-info w-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Montañismo"></i>
                 </div>
+    
                 <div class="col-4 text-white">
-                    <i class="fa-solid fa-route bg-info icon w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Senderismo"></i>
+                    <i class="fa-solid fa-route bg-info icon w-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Senderismo"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo libero veritatis adipisci ipsa
                         eveniet soluta possimus eaque maxime? Assumenda, quisquam consectetur neque ea consequatur odit
                         sit accusamus totam numquam voluptatibus?</p>
@@ -110,45 +114,41 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="card1">
+                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="card1" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This content is a little bit longer.">
                         <div class="card-body bg-info text-white">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img id="card2" src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <img id="card2" src="/assets/img/card2.jpg" class="card-img-top" alt="..." data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This content is a little bit longer.">
                         <div class="card-body bg-info text-white">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card3.jpg" class="card-img-top" alt="..." data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This content is a little bit longer.">
                         <div class="card-body bg-info text-white">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
+                                to additional content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card4.jpg" class="card-img-top" alt="..." data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This content is a little bit longer.">
                         <div class="card-body bg-info text-white">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
+                                to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
@@ -200,13 +200,14 @@
         </div>
     </section>
 
-
-
-
-
-    <script src="/assets/js/miJS.js"></script>
+    <!--CDN BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
+    <!--CDN JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="/assets/js/miJS.js"></script>
+
 </body>
 
 <footer class="bg-info">
