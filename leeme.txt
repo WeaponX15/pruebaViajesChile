@@ -1,0 +1,5 @@
+https://github.com/WeaponX15/pruebaViajesChile
+
+Los tooltip estan activos en los iconos de quiénes somos
+
+Agregue un popover al momento de presionar el boton "Enviar" del formulario de contacto
