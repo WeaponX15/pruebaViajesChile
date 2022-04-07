@@ -51,7 +51,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    <img src="/assets/img/carousel1.jpg" class="d-block w-100" alt="..." data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ratchet Clank">
                 </div>
                 <div class="carousel-item">
                     <img src="/assets/img/carousel2.jpg" class="d-block w-100" alt="...">
@@ -110,7 +110,7 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <img src="/assets/img/card1.jpg" class="card-img-top" alt="card1">
                         <div class="card-body bg-info text-white">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
@@ -173,9 +173,30 @@
                 <div class="mb-3">
                     <label for="mensajeCliente" class="form-label text-white">Mensaje</label>
                     <textarea type="textarea" class="form-control" id="mensajeCliente" rows="3"></textarea>
-                    <button type="submit" class="btn btn-primary mb-4 mt-2">Enviar</button>
+                    <button type="submit" class="btn btn-primary mb-4 mt-2" data-bs-toggle="modal" data-bs-target="#miModal">Enviar</button>
                 </div>
             </form>
+        </div>
+    </section>
+
+    <!--MODAL BOTON ENVIAR FORMULARIO-->
+    <section>
+        <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Aviso Importante</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Gracias por escribirnos, te recordamos que antes de reservar un paquete turistico con nosotros, tengas en cuenta
+                        las medidas sanitarias covid respectivas. Te contactaremos en un plazo máximo de 24 horas.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok estoy de acuerdo</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
